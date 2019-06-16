@@ -1,2 +1,1 @@
-# test
-repo for tests
+SoftUni-Courses
