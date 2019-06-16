@@ -1,23 +1,14 @@
 function areEqual(leftArr, rightArr) {
-    let counter = 0;
-    let sum = 0;
-    let isEqual = true;
+       let sum = 0;
 
     for (let i = 0; i < leftArr.length; i++) {
         if (leftArr[i] === rightArr[i]) {
-            if (isEqual) {
-                counter++;
-                sum += Number(leftArr[i]);
-            }
-
+        sum+=Number(leftArr[i]);   
         } else {
-            isEqual = false;
-            console.log(`Arrays are not identical. Found difference at ${counter} index`);
-            break;
+            console.log(`Arrays are not identical. Found difference at ${i} index`);
+            return;
         }
     }
-    if (isEqual) {
         console.log(`Arrays are identical. Sum: ${sum}`);
-    }
 }
 areEqual(['10'], ['-10'])
