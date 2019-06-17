@@ -1,4 +1,4 @@
-function projectsCreation(input){
+function projectsCreation(input) {
     let name = input.shift();
     let projectsCount = Number(input.shift());
     let hours = projectsCount * 3;

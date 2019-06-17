@@ -4,6 +4,6 @@ function fishTank(input) {
     let height = Number(input.shift());
     let percent = Number(input.shift());
 
-    let  volumeDm = (length * width * height) / 1000;
-console.log((volumeDm * (1 - (percent * 0.01))).toFixed(3));
+    let volumeDm = (length * width * height) / 1000;
+    console.log((volumeDm * (1 - (percent * 0.01))).toFixed(3));
 }

@@ -1,4 +1,4 @@
-function greeting(input){
+function greeting(input) {
     let name = input.shift();
-    console.log(`Hello, ${name}!`);  
+    console.log(`Hello, ${name}!`);
 }
