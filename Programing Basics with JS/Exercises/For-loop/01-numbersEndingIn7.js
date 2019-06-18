@@ -5,4 +5,5 @@ function sequenceEndingIn7(input) {
             console.log(i);
         }
     }
+    
 }
