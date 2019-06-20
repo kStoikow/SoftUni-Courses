@@ -24,6 +24,7 @@ function trip(input) {
             console.log(((wholePrice * discountPercent) * 0.90).toFixed(2));
         }
 
+
     } else if (room === "president apartment") {
         roomPrice = 35.00;
         let wholePrice = roomPrice * nights;
@@ -52,4 +53,5 @@ function trip(input) {
             console.log((wholePrice * 0.9).toFixed(2));
         }
     }
+
 }
