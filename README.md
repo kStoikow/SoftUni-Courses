@@ -1,1 +1,1 @@
-SoftUni-Courses
+SoftUni-Courses - Programing Basics with JS
